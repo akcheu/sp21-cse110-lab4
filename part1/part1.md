@@ -45,6 +45,9 @@
 17. The result of the function would be a return array newArr with the values [2,4,6]. The flow of the program starts with the input array [1,2,3], as well as a callback function doSomething that are passed in as parameters to the modifyArray function. Then an empty const array is declared with function scope. A for-loop iterates for the length of the array (3) and pushes the return value of the callback function (doSomething, which multiplies the paramter value by 2). At each iteration the "i" value is passed into the parameter of the callback function, and therefore the resulting array would simply by [2,4,6] or double the values of the input array.
 18. Answer in part1b-question18.js
 19. 1
+    
     4
+
     3
+    
     2
